@@ -1,0 +1,197 @@
+.authorization
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0, 0, 0, 0.7)
+  display: flex
+  justify-content: center
+  align-items: center
+  &__window
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 58rem
+    height: 40.79rem
+    background: rgba(255, 255, 255, 0.9)
+    box-shadow: 0 0 1.29rem rgba(0, 0, 0, 0.07)
+    border-radius: 0.36rem
+    overflow: hidden
+  &__title
+    font-size: 3.43rem
+    line-height: 4rem
+    color: rgba(0, 0, 0, 0.8)
+    &-wrapper
+      width: 100%
+      height: 6.07rem
+      display: flex
+      justify-content: center
+      align-items: center
+  &__buttons
+    width: 100%
+    height: 7.5rem
+    display: flex
+    justify-content: space-around
+    align-items: center
+    background: #4fbe79
+  &__button
+    width: 17.71rem
+    height: 4.29rem
+    font-size: 1.57rem
+    line-height: 1.86rem
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #fff
+    border: 0.14rem solid #fff
+    border-radius: 0.36rem
+    &_login
+      background: inherit
+    &_cancel
+      background: #e53935
+  &-form
+    height: 27.21rem
+    display: flex
+    flex-direction: column
+    margin-left: 4.35rem
+    margin-right: 13.93rem
+.form
+  width: 39.71rem
+  height: 6.36rem
+  display: flex
+  flex-direction: column
+  &__login
+    margin-top: 1.57rem
+    margin-bottom: 3.93rem
+  &__password
+    margin-bottom: 3.93rem
+  &__label
+    font-size: 1rem
+    line-height: 1.14rem
+    color: rgba(0, 0, 0, 0.6)
+  &__input
+    font-size: 3.43rem
+    line-height: 4rem
+    display: flex
+    align-items: center
+    color: #000
+    background: inherit
+    border: none
+    border-bottom: 0.07rem solid #000
+    &::placeholder
+      color: #000
+    &:active
+      border-bottom: 0.14rem solid #3f51b5
+@media screen and (max-width: 1279px)
+  .authorization
+    &__window
+      width: 45rem
+      height: 30rem
+    &__title
+      font-size: 3rem
+      line-height: 3.5rem
+      &-wrapper
+        height: 4rem
+    &__buttons
+      height: 6rem
+    &__button
+      width: 12rem
+      height: 3.5rem
+      font-size: 1.25rem
+      line-height: 1.5rem
+    &-form
+      height: 20rem
+      margin-left: 3rem
+      margin-right: 9rem
+  .form
+    width: 30rem
+    height: 5rem
+    &__login
+      margin-top: 1.25rem
+      margin-bottom: 2.5rem
+    &__password
+      margin-bottom: 2.5rem
+    &__input
+      font-size: 2.5rem
+      line-height: 3rem
+      border-bottom: 0.1rem solid #000
+      &::placeholder
+        color: #000
+      &:active
+        border-bottom: 0.14rem solid #3f51b5
+@media screen and (max-width: 979px)
+  .authorization
+    &__window
+      width: 30rem
+      height: 20rem
+    &__title
+      font-size: 2rem
+      line-height: 2.25rem
+      &-wrapper
+        height: 3rem
+    &__buttons
+      height: 4rem
+    &__button
+      width: 9rem
+      height: 2.5rem
+      font-size: 1rem
+      line-height: 1.25rem
+    &-form
+      height: 14.5rem
+      margin-left: 2rem
+      margin-right: 6rem
+  .form
+    width: 22rem
+    height: 3.5rem
+    &__login
+      margin-top: 1rem
+      margin-bottom: 1.5rem
+    &__password
+      margin-bottom: 1.5rem
+    &__input
+      font-size: 1.75rem
+      line-height: 2rem
+      border-bottom: 0.05rem solid #000
+      &::placeholder
+        color: #000
+      &:active
+        border-bottom: 0.1rem solid #3f51b5
+@media screen and (max-width: 508px)
+  .authorization
+    &__window
+      width: 22.8rem
+      height: 15rem
+    &__title
+      font-size: 1.5rem
+      line-height: 1.75rem
+      &-wrapper
+        height: 2rem
+    &__buttons
+      height: 4rem
+    &__button
+      width: 8rem
+      height: 3rem
+      font-size: 1rem
+      line-height: 1.25rem
+    &-form
+      height: 10rem
+      margin-left: 1rem
+      margin-right: 4rem
+  .form
+    width: 15rem
+    height: 3rem
+    &__login
+      margin-top: 0.5rem
+      margin-bottom: 1rem
+    &__password
+      margin-bottom: 1rem
+    &__input
+      font-size: 1.25rem
+      line-height: 1.5rem
+      border-bottom: 0.05rem solid #000
+      &::placeholder
+        color: #000
+      &:active
+        border-bottom: 0.1rem solid #3f51b5

@@ -1,0 +1,129 @@
+.admin-card
+  position: relative
+  width: 361px
+  height: 458px
+  padding: 30px 54px 13px 54px
+  border: 2px solid rgba(0, 0, 0, 0.4)
+  border-radius: 5px
+  margin: 1%
+  &__close
+    position: absolute
+    right: 10px
+    top: 10px
+    width: 25px
+    height: 25px
+    border-radius: 50%
+    background-image: url("../../../images/close.svg")
+    background-position: center
+    cursor: pointer
+  &__info
+    font-weight: bold
+    font-size: 22px
+    line-height: 26px
+    display: flex
+    align-items: center
+    color: #000000
+    margin-bottom: 15px
+  &__translatation,
+  &__sound,
+  &__word
+    width: 130px
+    font-size: 22px
+    line-height: 26px
+  &__sound
+    cursor: pointer
+    overflow: hidden
+  &__image
+    width: 253px
+    height: 170px
+    margin-bottom: 10px
+  &__button-change
+    width: 251px
+    height: 60px
+    border: 2px solid #00bf82
+    border-radius: 5px
+    background: inherit
+    font-size: 22px
+    line-height: 26px
+    color: #00bf82
+  &__delete
+    position: absolute
+    right: 15px
+    top: 15px
+    width: 25px
+    height: 25px
+    background-image: url(../../../images/close.svg)
+    background-repeat: no-repeat
+    background-position: center
+    cursor: pointer
+  &__change
+    margin-top: 40px
+  &__form
+    display: flex
+    flex-direction: column
+    margin-bottom: 10px
+  &__label
+    font-weight: bold
+    font-size: 9px
+    line-height: 11px
+    color: #3F51B5
+  &__input
+    height: 30px
+    border: none
+    border-bottom: 1px solid #3f51b5
+    font-size: 22px
+    line-height: 26px
+    display: flex
+    align-items: center
+    color: #000000
+  &__input-container
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+  &__input-wrapper
+    width: 143px
+    height: 34px
+    overflow: hidden
+  &__input-file
+    position: absolute
+    overflow: hidden
+    z-index: -100
+    width: 0.1rem
+    height: 0.1rem
+    opacity: 0
+  &__input-file-label
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: nowrap
+    width: 100%
+    height: 100%
+    border: 2px solid #00bf82
+    border-radius: 5px
+    cursor: pointer
+    font-size: 22px
+    line-height: 26px
+    color: #00bf82
+    overflow: hidden
+    word-break: break-all
+    &_left
+      align-items: start
+  &__buttons
+    display: flex
+    justify-content: space-between
+    width: 100%
+    height: 60px
+    margin-top: 99px
+  &__cancel
+    border: 2px solid #e53935
+    color: #e53935
+  &__create
+    border: 2px solid #00bf82
+    color: #00bf82
+  &__button
+    width: 110px
+    font-size: 22px
+    line-height: 26px
+    border-radius: 5px
+.disabled
+  opacity: 0.5

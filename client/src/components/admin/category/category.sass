@@ -1,0 +1,95 @@
+.admin-category
+  display: flex
+  flex-direction: column
+  position: relative
+  width: 361px
+  height: 244px
+  border: 2px solid rgba(0, 0, 0, 0.4)
+  border-radius: 5px
+  margin: 1%
+  &__head
+    height: 70px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 33px
+  &__name
+    font-weight: bold
+    font-size: 22px
+    line-height: 26px
+  &__close
+    position: absolute
+    right: 10px
+    top: 10px
+    width: 25px
+    height: 25px
+    border-radius: 50%
+    background-image: url("../../../images/close.svg")
+    background-position: center
+    cursor: pointer
+  &__form
+    position: absolute
+    display: flex
+    flex-direction: column
+    top: 43px
+    left: 34px
+    width: 293px
+  &__label
+    font-weight: bold
+    font-size: 9px
+    line-height: 11px
+    color: #3F51B5
+    margin-bottom: 5px
+  &__input
+    font-size: 22px
+    line-height: 26px
+    display: flex
+    align-items: center
+    color: #000000
+    border: none
+    border-bottom: 1px solid #3f51b5
+  &__modify
+    display: flex
+    justify-content: space-between
+    width: 329px
+    position: absolute
+    bottom: 20px
+    right: 16px
+  &__change
+    width: 142px
+    height: 60px
+    font-size: 22px
+    line-height: 26px
+    border-radius: 5px
+  &__cancel
+    color: #e53935
+    border: 2px solid #e53935
+  &__create
+    border: 2px solid #00bf82
+    color: #00bf82
+  &__words
+    font-size: 22px
+    line-height: 26px
+    color: #000000
+    margin-left: 54px
+    margin-bottom: 61px
+    text-transform: uppercase
+  &__count
+    font-weight: bold
+    font-size: 22px
+    line-height: 26px
+  &__control
+    margin-left: 21px
+    margin-right: 21px
+    display: flex
+    justify-content: space-between
+  &__button
+    width: 135px
+    height: 31px
+    color: #00bf82
+    font-size: 22px
+    line-height: 26px
+    border: 2px solid #00BF82
+    border-radius: 5px
+.hidden
+  display: none

@@ -1,0 +1,41 @@
+.please
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0, 0, 0, 0.7)
+  display: flex
+  justify-content: center
+  align-items: center
+  &__window
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    width: 40rem
+    height: 27rem
+    background: rgba(255, 255, 255, 0.9)
+    box-shadow: 0 0 1.29rem rgba(0, 0, 0, 0.07)
+    border-radius: 0.6rem
+    overflow: hidden
+    padding: 1rem
+  &__title
+    font-size: 1.5rem
+    line-height: 1.75rem
+    color: rgba(0, 0, 0, 0.8)
+  &__close
+    width: 6rem
+    height: 3rem
+    font-size: 1.5rem
+    line-height: 1.75rem
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #000
+    border: 0.14rem solid #000
+    border-radius: 0.36rem
+    cursor: pointer
+.hidden
+  display: none
